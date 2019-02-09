@@ -19,3 +19,25 @@ figcaption{
 a{
   color: yellow;
 }
+
+#alfcap
+{
+  color: yellow;
+  font-size: 24px;
+}
+
+#markuscap
+{
+  color:red;
+  font-size: 24px;
+}
+
+#alimage
+{
+  height: 80vh;
+}
+
+#markusimage
+{
+  height: 60vh;
+}
