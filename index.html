@@ -17,7 +17,7 @@
     <p>Tagging:</p>
       <ul>
         <li>HTML is structured so that everything happens between two tags (ex: "tag" STUFF "end tag")</li>
-        <li>The beginning of a tag looks like this &lt;tag&gt; while the end looks like &lt;tag&gt;</li>
+        <li>The beginning of a tag looks like this &lt;tag&gt; while the end looks like &lt;/tag&gt;</li>
         <!--Since < and > are special characters used in writing the code, if we want them to show up as text
         we use &lt; == < and &gt; == > -->
         <li>It is possible to have a single tag. Single tag elements are elements that insert something into a page</li>
@@ -26,10 +26,15 @@
     <p>Document format:</p>
       <ul>
         <li>All HTML documents start with &lt;html&gt;</li>
-        <li>Next is &lt;head&gt; which supplies information that labels the whole HTML document</li>
+        <li>Next is &lt;head&gt; which supplies information to the browser and web server (it also labels the whole HTML document)</li>
           <ul>
             <li>Inside of the &lt;head&gt; section should be &lt;title&gt; which is the text that appears in the browser bar</li>
           </ul>
         <li>Next is &lt;body&gt; which is where any content that appears on the web page should be added</li>
       </ul>
+
+    <p>Page Redirection:</p>
+      <ul>
+        <li>The command &lt;meta http-equiv="refresh" content="15; url=http://www.w3.org/"&gt; redirects the website to w3.org after 15 seconds</li>
+        <li>The command &lt;meta http-equiv="refresh" content="1800"&gt; refreshes the browser every 30 minutes</li>
 </html>
