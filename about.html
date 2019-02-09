@@ -2,29 +2,33 @@
   <head>
     <title> About </title>
     <meta charset="UTF-8">
-    </head>
+  </head>
 
     <body style="color: white;
           background-color: black;
           font-size: 12pt;
           font-family: sans-serif;">
+      <a id="top"></a> <!--Saves location on page for use of intradocument links-->
       <h1> About: </h1>
-      <p> The authors of this awesome website are Markus Becerra and Alfonso Martello. </p>
+      <p> The authors of this awesome website are <a href="#markus">Markus Becerra</a> and <a href="#alf">Alfonso Martello</a>. </p>
       <P> If you would like to donate to help keep this website up to date plz venmo me @Markus-Becerra. </P>
       <p> Thank you for your continued support </p>
 
   <figure>
- <img src="al.jpg" alt="Alfonso Martello">
- <figcaption>
-Alfonso Martello.
- </figcaption>
-</figure>
+    <a id="alf"></a>
+    <img src="al.jpg" alt="Alfonso Martello">
+    <figcaption>
+      Alfonso Martello.
+    </figcaption>
+  </figure>
 
 <figure>
  <img src="markus.jpg" alt="Markus Becerra">
- <figcaption>
- Markus Becerra.
- </figcaption>
+  <figcaption>
+    <a id="markus"></a>
+    Markus Becerra.
+  </figcaption>
 </figure>
+<a href=#top>Back to top.</a> <!--Creates a link that goes to the saved position of the "top" id (on the same page)-->
 
 </html>
