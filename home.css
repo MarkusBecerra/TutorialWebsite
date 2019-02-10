@@ -1,21 +1,23 @@
-body: {
+body {
   margin: 0;
-
 }
 
 header {
   background: #999;
   color: white;
-  margin: 0;
+  padding: 15px 15px 0 15px;
 }
 
 header h1
 {
     margin: 0;
+    display: inline;
 }
 
 nav ul{
     margin: 0;
+    padding: 0 0 0 35px;
+    display: inline;
 }
 
 nav ul li {
@@ -23,19 +25,70 @@ nav ul li {
   color: white;
   display: inline-block;
   list-style-type: none;
-  margin: 5px;
-  padding: 3px 10px;
+  padding: 5px 15px;
 }
 
 nav ul li a {
   color: white;
 }
 
+.row{
+
+}
+
+.col
+{
+  background: #333;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: blue;
+  padding: 10px .25%;
+  float: left;
+  width: 31%;
+  margin: .5%;
+  color: white;
+}
+
+footer
+{
+clear: both;
+}
+
+audio{
+float: left;
+clear:both;
+}
+
 #orangejustice{
-  height: 50vh;
+  height: 25vh;
+
 }
 
 #spiderman
 {
   height:25vh;
+
+}
+
+#squidward
+{
+  height: 25vh;
+
+}
+
+.img-container {
+border-radius: 5px;
+border-style: solid;
+border-color: blue;
+background: grey;
+float: left;
+margin: .5%;
+width: 31.5%; /* three containers (use 25% for four, and 50% for two, etc) */
+padding:10px, .5%; /* if you want space between the images */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
